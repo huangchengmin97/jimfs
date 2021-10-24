@@ -1,0 +1,40 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Jimfs Parent                                                       [pom]
+[[1;34mINFO[m] Jimfs                                                           [bundle]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.google.jimfs:jimfs-parent[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Jimfs Parent HEAD-SNAPSHOT                                [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:1.1.2:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjimfs-parent[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjimfs-parent[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex-maven-plugin:1.1.2:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjimfs-parent[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex-maven-plugin:1.1.2:nondex[m [1m(default-cli)[m @ [36mjimfs-parent[0;1m ---[m
+SEVERE: Make sure surefire is in your pom.xml
+INFO: The original argline is: 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Jimfs Parent HEAD-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Jimfs Parent ....................................... [1;31mFAILURE[m [  0.521 s]
+[[1;34mINFO[m] Jimfs .............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.694 s
+[[1;34mINFO[m] Finished at: 2021-10-17T16:40:02-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:1.1.2:nondex[m [1m(default-cli)[m on project [36mjimfs-parent[m: [1;31mExecution default-cli of goal edu.illinois:nondex-maven-plugin:1.1.2:nondex failed.[m: NullPointerException -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
